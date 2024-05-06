@@ -12,6 +12,6 @@ public class HanoiRhymer extends defaultCountingOutRhymer {
     if (!callCheck() && in > peekaboo())
         totalRejected++;
     else
-                super.countIn(in);
+        super.countIn(in);
     }
 }
