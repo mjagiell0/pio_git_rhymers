@@ -2,8 +2,8 @@ package edu.kis.vh.nursery.list;
 
 public class Node {
 
-    final public int value;
-    public Node prev, next;
+    final protected int value;
+    protected Node prev, next;
 
     public Node(int i) {
         value = i;
